@@ -28,6 +28,19 @@ public class Order {
         public double getItemTotal() {
             return price * quantity;
         }
+
+        // Getter methods for private fields
+        public String getName() {
+            return name;
+        }
+
+        public double getPrice() {
+            return price;
+        }
+
+        public int getQuantity() {
+            return quantity;
+        }
     }
 
     // Calculate the total price of all items in the order

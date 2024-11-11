@@ -15,9 +15,9 @@ public class OrderSummary {
         summary.append("Order ID: ").append(order.getOrderId()).append("\nItems:\n");
 
         for (Order.Item item : order.getItems()) {
-            summary.append(item.name)
-                   .append(" - Quantity: ").append(item.quantity)
-                   .append(", Price per item: ").append(item.price)
+            summary.append(item.getName())
+                   .append(" - Quantity: ").append(item.getQuantity())
+                   .append(", Price per item: ").append(item.getPrice())
                    .append(", Total: ").append(item.getItemTotal())
                    .append("\n");
         }
