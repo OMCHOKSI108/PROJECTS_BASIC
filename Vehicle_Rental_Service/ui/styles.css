@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+}
+
+header h1 {
+    color: #e50914;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.rental-form, .rental-summary {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 0.9rem;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: #e5e5e5;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f40612;
+}
+
+.rental-summary ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.rental-summary li {
+    margin-bottom: 10px;
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
