@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Rental Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vehicle Rental Service</h1>
+            <p>Rent or return vehicles with ease.</p>
+        </header>
+        <div class="rental-form">
+            <h2>Vehicle Rental</h2>
+            <form id="rentalForm">
+                <label for="vehicleType">Vehicle Type</label>
+                <input type="text" id="vehicleType" placeholder="Enter vehicle type (e.g., Car)" required>
+
+                <label for="actionType">Action</label>
+                <select id="actionType" required>
+                    <option value="rent">Rent</option>
+                    <option value="return">Return</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="rental-summary">
+            <h2>Rental Summary</h2>
+            <ul id="rentalList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
